@@ -16,6 +16,10 @@ A curated collection of hands-on DevOps projects for beginners to advanced pract
 **Teaches:** AWS services, Jenkins CI/CD, microservices architecture, multi-tier applications, Terraform Cloud
 **Who should do it:** Intermediate to advanced - AWS-specific implementations and enterprise patterns
 
+### [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit)
+**Teaches:** Troubleshooting methodologies, Linux diagnostics, container debugging, Kubernetes troubleshooting, cloud platform issues, database problems, observability tools
+**Who should do it:** All levels - comprehensive reference guide for diagnosing and resolving issues across the entire DevOps stack
+
 ## Medium Articles
 
 - [AWS AND AZURE DevOps Projects Collection](https://medium.com/@osomudeyazudonu/list/devops-projects-419381cab8b1) - All tutorials and guides
