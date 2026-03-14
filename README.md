@@ -20,6 +20,16 @@ A curated collection of hands-on DevOps projects for beginners to advanced pract
 **Teaches:** Troubleshooting methodologies, Linux diagnostics, container debugging, Kubernetes troubleshooting, cloud platform issues, database problems, observability tools
 **Who should do it:** All levels - comprehensive reference guide for diagnosing and resolving issues across the entire DevOps stack
 
+### [KubeLab](https://github.com/Osomudeya/kubelab)
+**Teaches:** Kubernetes self-healing, ReplicaSets, node draining, CPU throttling, OOMKill, StatefulSet persistence, cascading failure, readiness probes; MicroK8s setup; monitoring with Prometheus and Grafana
+**Who should do it:** New to Kubernetes (guided path ~90 min) or running K8s in production — break things on purpose and watch the cluster self-heal; includes interview prep and debugging production issues
+**See it in action:** Trigger failures in the UI and watch Grafana live — pod restarts, memory usage, and self-healing in real time instead of just reading about it
+
+### [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab)
+**Teaches:** Secure secret delivery to Kubernetes — Terraform, AWS Secrets Manager, External Secrets Operator (ESO), IRSA, secret rotation (env vs volume, zero-downtime), ESO vs CSI driver, CI/CD with OIDC
+**Who should do it:** Anyone needing cloud vault → cluster → pod; run locally (MicroK8s, ~15 min) or on EKS for production-style CI/CD and ALB
+**See it in action:** Watch secrets sync and rotate in the lab UI; compare env vs volume behavior side-by-side instead of just reading about it
+
 ## Medium Articles
 
 - [AWS AND AZURE DevOps Projects Collection](https://medium.com/@osomudeyazudonu/list/devops-projects-419381cab8b1) - All tutorials and guides
