@@ -30,6 +30,20 @@ A curated collection of hands-on DevOps projects for beginners to advanced pract
 **Who should do it:** Anyone needing cloud vault → cluster → pod; run locally (MicroK8s, ~15 min) or on EKS for production-style CI/CD and ALB
 **See it in action:** Watch secrets sync and rotate in the lab UI; compare env vs volume behavior side-by-side instead of just reading about it
 
+## Gumroad Products (Deep Dive)
+
+Optional resources that go deeper than a typical blog post. This table is designed to help you pick the right one quickly.
+
+| Product | Best for | What you’ll get (high level) | Visual / hands-on (vs just reading) |
+| --- | --- | --- | --- |
+| **DevOps Operating System** *(flagship)* | A single guided path from beginner → hireable | Structured curriculum, build-first progression, capstone portfolio outcomes | Build real infra/projects as you go (not theory-only) |
+| **Complete DevOps Path Bundle v1** | One cohesive pack covering build → break → fix → explain → automate | A bundle of the core guides + templates in one workflow | Includes hands-on labs + project work across the included resources |
+| **Stop Getting Ghosted After DevOps Interviews (Even Though You Know Your Stuff)** | Turning “good skills” into interview-ready stories | 47 decoded questions (“what they asked” vs “what they’re testing”), failure-story patterns, 7‑day prep plan | Practice prompts + project-backed talking points (so you can show, not claim) |
+| **The Kubernetes Detective: Fix It Fast** | Faster, calmer Kubernetes incident troubleshooting | A step-by-step method, checklists/templates, case studies, practice app, break/fix files | Deploy the sample app and debug intentionally broken scenarios |
+| **Build Your Own DevOps Lab: The Zero-Cost Infrastructure Guide** | Building a production-style lab on your laptop | Multi-chapter build plan, code/configs, troubleshooting guide, portfolio structure | You build a multi-VM lab + deployable projects (monitoring, CI/CD, k8s) |
+| **Master DevOps with AI: Automate Your Infrastructure and Ship Faster** | Using AI safely for automation + debugging workflows | Tool stack + prompt/workflow system + 30‑day action plan | Apply workflows to real tasks (debug pods, write scripts, plan systems) |
+| **FREE Resume Template** | A clean ATS-friendly baseline fast | Resume structure, bullet examples, formatting guidelines, keyword lists | Editable template (you can ship a resume, not just read tips) |
+
 ## Medium Articles
 
 - [AWS AND AZURE DevOps Projects Collection](https://medium.com/@osomudeyazudonu/list/devops-projects-419381cab8b1) - All tutorials and guides
