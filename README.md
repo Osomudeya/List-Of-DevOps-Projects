@@ -60,8 +60,7 @@ Optional resources that go deeper than a typical blog post. This table is design
 
 **Newsletter**
 
-Every week — one real case study, one tactic, one honest moment where something broke. No padding.
-
+Every week — one real case study, one tactic, one honest moment where something broke.
 [Subscribe](https://osomudeya.gumroad.com/subscribe)
 
 ---
