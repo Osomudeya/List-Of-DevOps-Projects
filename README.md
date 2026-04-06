@@ -11,6 +11,7 @@ I help engineers learn DevOps through **real systems and failures** — not tuto
 | Kubernetes under stress (drains, OOM, probes, cascading failures, metrics) | [KubeLab](https://github.com/Osomudeya/kubelab) |
 | Secrets: cloud → cluster → pod (ESO, rotation, IRSA/OIDC, EKS option) | [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab) |
 | Something broke — Linux, containers, K8s, cloud, DBs, observability | [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) |
+| A production-style microservices system (payments, async processing, idempotency) | [PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet) |
 
 For a **full system** (not a single issue), use the path below. More narrow labs (e.g. CI/CD-only) are planned.
 
@@ -23,8 +24,9 @@ For a **full system** (not a single issue), use the path below. More narrow labs
 | 3 | [KubeLab](https://github.com/Osomudeya/kubelab) then [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab) | Failure modes + observability; then secret sync, rotation, env vs volume |
 | 4 | [AWS DevOps Projects](https://github.com/Osomudeya/Aws-Devops-Projects) | AWS, Jenkins, microservices, Terraform Cloud–style patterns |
 | 5 | [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) | Systematic incident flow across the stack |
+| 6 | [PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet) | Teaching-grade payment microservices (Docker Compose → MicroK8s → EKS/AKS), Terraform, monitoring, and a week-by-week learning path |
 
-After step 5, loop back to **KubeLab** or **K8s Secrets Lab** under pressure, or use [Gumroad Products (Deep Dive)](#gumroad-products-deep-dive) for guided deep dives.
+After step 6, loop back to **KubeLab** or **K8s Secrets Lab** under pressure, or use [Gumroad Products (Deep Dive)](#gumroad-products-deep-dive) for guided deep dives.
 
 ---
 
@@ -41,6 +43,8 @@ After step 5, loop back to **KubeLab** or **K8s Secrets Lab** under pressure, or
 **[AWS DevOps Projects](https://github.com/Osomudeya/Aws-Devops-Projects)** — Enterprise-style AWS + delivery. **Next:** [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit).
 
 **[DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit)** — Guides, scenarios, commands, scripts, observability patterns across layers. **Next:** [KubeLab](https://github.com/Osomudeya/kubelab) to rehearse in a safe cluster.
+
+**[PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet)** — Payment microservices platform (gateway/auth/wallet/transactions/notifications) with idempotency + async processing; run via Docker Compose or MicroK8s; optional EKS/AKS with Terraform. **Next:** Use it as a capstone after the full path, or as a deep practice target for the Troubleshooting Toolkit.
 
 ---
 
