@@ -72,8 +72,8 @@ Optional resources that go deeper than a typical blog post. This table is design
 
 **Newsletter**
 
-Every week — one real case study, one tactic, one honest moment where something broke.
-[Subscribe](https://osomudeya.gumroad.com/subscribe)
+I write weekly about real DevOps incidents, debugging, tricks, and useful resources (free & paid), so you don’t get stuck when things break.
+[→ Join the newsletter](https://osomudeya.gumroad.com/subscribe)
 
 ---
 
