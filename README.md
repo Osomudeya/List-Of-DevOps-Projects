@@ -1,6 +1,6 @@
 # DevOps Project Portfolio
 
-I help engineers learn DevOps through **real systems and failures** — not tutorials. **Everything here is free.** Production-style labs you can run on your laptop today.
+I help engineers learn DevOps through **real systems and failures**. **Everything here is free.** Production-style labs you can run on your laptop today.
 
 **Two ways to use this:** solve **one problem** (first table), or follow the **full path** in order (second table). Each repo’s README is the step-by-step guide — this page is only the map.
 
