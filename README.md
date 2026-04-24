@@ -63,8 +63,7 @@ Optional resources that go deeper than a typical blog post. This table is design
 | Product | What you get |
 | --- | --- |
 | **[DevOps Operating System — From Zero to Job-Ready](https://osomudeya.gumroad.com/l/devops-atlas)** *(flagship)* | This is a structured, end-to-end system that takes you from isolated DevOps skills to building, debugging, and confidently explaining a real production-grade architecture—the exact capability hiring teams evaluate. |
-| **[Complete DevOps Path Bundle v1](https://osomudeya.gumroad.com/l/devops-bundle)** | All products bundled together: DevOps Operating System — From Zero to Job-Ready
-, AI-for-DevOps guide, Build Your Own DevOps Lab — Zero-Cost Infrastructure Guide, The Kubernetes Detective: Fix It Fast - Complete Troubleshooting Demo, The DevOps Interview Decoder, and resume template |
+| **[Complete DevOps Path Bundle v1](https://osomudeya.gumroad.com/l/devops-bundle)** | All products bundled: DevOps Operating System (zero to job-ready), AI for DevOps, Build Your Own DevOps Lab, Kubernetes Detective, Interview Decoder, and resume template |
 | **[The DevOps Interview Decoder](https://osomudeya.gumroad.com/l/pcpbks)** | Decoded questions (what they asked vs what they test), failure-story patterns, and a short prep plan |
 | **[The Kubernetes Detective: Fix It Fast - Complete Troubleshooting Demo](https://osomudeya.gumroad.com/l/jabzk)** | Troubleshooting method (STOP framework), long-form guide, break/fix assets, sample app, and production-style case studies |
 | **[Build Your Own DevOps Lab — Zero-Cost Infrastructure Guide](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab)** | Six-chapter build: virtualization, Docker/K8s, Terraform/Ansible, monitoring, CI/CD, and a simulated multi-VM “prod” environment |
