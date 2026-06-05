@@ -1,79 +1,57 @@
-# DevOps Project Portfolio
+# Learn DevOps Through Real Systems
 
 I help engineers learn DevOps through **real systems and failures**. **Everything here is free.** Production-style labs you can run on your laptop today.
 
-**Two ways to use this:** solve **one problem** (first table), or follow the **full path** in order (second table). Each repo’s README is the step-by-step guide — this page is only the map.
+**If you are new here:** start with [**DevSecOps Project 2026**](https://osomudeya.gumroad.com/l/devsecops-lab) ([GitHub](https://github.com/Osomudeya/clearledger)). It is the most guided path — staged labs on one app, with clear checkpoints. Prefer the [ebook](https://osomudeya.gumroad.com/l/devsecops-lab) for offline reading; use the [repo](https://github.com/Osomudeya/clearledger) to run the lab.
 
-**If you are new here:** open [**DevOps Home-Lab 2026** (step 1)](https://github.com/Osomudeya/DevOps-Home-Lab-2025) and stay in that repo until it tells you to move on. You do not need to understand every acronym below first.
+**If you have an active incident:** use the **By problem** table below.
 
-**If something is on fire:** use the **By problem** table, then return to the full path when you want the whole system.
-
-**If you already ship to production:** use either table, or jump straight into the repo that matches the gap you are closing.
-
-### By problem
-
-| Problem | Repo |
-| --- | --- |
-| Kubernetes under stress (drains, OOM, probes, cascading failures, metrics) | [KubeLab](https://github.com/Osomudeya/kubelab) |
-| Secrets: cloud → cluster → pod (ESO, rotation, IRSA/OIDC, EKS option) | [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab) |
-| Something broke — Linux, containers, K8s, cloud, DBs, observability | [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) |
-| A production-style microservices system (payments, async processing, idempotency) | [PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet) |
-
-For a **full system** (not a single issue), use the path below. More narrow labs (e.g. CI/CD-only) are planned.
+**If you already work in production:** pick the step that matches your gap, or go straight to that repo.
 
 ### Full path (in order)
 
-| Step | Repo | What you build |
+| Step | Stage | Repo | Focus |
+| --- | --- | --- | --- |
+| 1 | DevSecOps | [**DevSecOps Project 2026**](https://osomudeya.gumroad.com/l/devsecops-lab) · [GitHub](https://github.com/Osomudeya/clearledger) | Best first project — 10 stages on one fintech app: CI gates, GitOps, policies, Vault, runtime security, observability |
+| 2 | Build | [DevOps Home-Lab 2026](https://github.com/Osomudeya/DevOps-Home-Lab-2025) | Services, networking, monitoring, and delivery as one system |
+| 3 | Deploy | [Side DevOps Projects](https://github.com/Osomudeya/side-devops-projects) | Provisioning and delivery across environments |
+| 4 | Secure | [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab) | Credentials from cloud store to application without plain-text exposure |
+| 5 | Deliver | [AWS DevOps Projects](https://github.com/Osomudeya/Aws-Devops-Projects) | Enterprise-style delivery patterns on AWS |
+| 6 | Troubleshoot | [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) | Incident flow across Linux, containers, K8s, cloud, and observability |
+| 7 | Explain | [PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet) | How a production-style system is designed, deployed, secured, and what breaks when parts fail |
+| 8 | Break | [KubeLab](https://github.com/Osomudeya/kubelab) | Failure modes in a cluster — drains, OOM, probes, cascading failures |
+
+You do not need to finish every repo. The aim is to build, troubleshoot, explain, and defend real systems — in interviews and in production.
+
+### By problem
+
+Use this only when you already know the gap. Otherwise stay on step 1.
+
+| Problem | Repo | Outcome |
 | --- | --- | --- |
-| 1 | [**DevOps Home-Lab 2026**](https://github.com/Osomudeya/DevOps-Home-Lab-2025) | Multi-service app: Compose, k3d, ingress, Prometheus/Grafana, ArgoCD, security basics, Cloudflare (edge) |
-| 2 | [Side DevOps Projects](https://github.com/Osomudeya/side-devops-projects) | Terraform (AWS/Azure), GitHub Actions, K8s deploys, Prometheus/Grafana, multi-env |
-| 3 | [KubeLab](https://github.com/Osomudeya/kubelab) then [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab) | Failure modes + observability; then secret sync, rotation, env vs volume |
-| 4 | [AWS DevOps Projects](https://github.com/Osomudeya/Aws-Devops-Projects) | AWS, Jenkins, microservices, Terraform Cloud–style patterns |
-| 5 | [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) | Systematic incident flow across the stack |
-| 6 | [PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet) | Teaching-grade payment microservices (Docker Compose → MicroK8s → EKS/AKS), Terraform, monitoring, and a week-by-week learning path |
-
-After step 6, loop back to **KubeLab** or **K8s Secrets Lab** under pressure, or use [Paid products (structured deep dive)](#gumroad-products-deep-dive) for guided deep dives.
+| How to securely build a DevSecOps platform or system | [DevSecOps Project 2026](https://osomudeya.gumroad.com/l/devsecops-lab) · [GitHub](https://github.com/Osomudeya/clearledger) | Ten staged labs on one app — CI gates, GitOps, policies, Vault, runtime security, observability |
+| Credentials or rotation are unclear | [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab) | Trace secrets from cloud store to pod |
+| An incident needs structured diagnosis | [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) | Scenarios, commands, scripts, and observability patterns by layer |
+| You need one system to discuss in an interview | [PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet) | Payment platform you can run locally or on a cluster and explain service by service |
+| A pod keeps restarting and the cause is unclear | [KubeLab](https://github.com/Osomudeya/kubelab) | Reproduce common failure modes and read cluster signals |
 
 ---
 
-## Project index
+## Paid products
 
-**[DevOps Home-Lab 2026](https://github.com/Osomudeya/DevOps-Home-Lab-2025)** — From zero to a globally exposed, hardened stack (Compose → k3d → GitOps → Cloudflare). **Next:** [Side DevOps Projects](https://github.com/Osomudeya/side-devops-projects).
-
-**[Side DevOps Projects](https://github.com/Osomudeya/side-devops-projects)** — IaC, CI/CD, K8s, monitoring, multi-environment as one workflow. **Next:** [KubeLab](https://github.com/Osomudeya/kubelab).
-
-**[KubeLab](https://github.com/Osomudeya/kubelab)** — Break K8s on purpose; watch metrics and self-heal in real time. **Next:** [K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab).
-
-**[K8s Secrets Lab](https://github.com/Osomudeya/k8s-secret-lab)** — AWS Secrets Manager → ESO → workloads (env + volume), rotation, local or EKS. **Next:** [AWS DevOps Projects](https://github.com/Osomudeya/Aws-Devops-Projects).
-
-**[AWS DevOps Projects](https://github.com/Osomudeya/Aws-Devops-Projects)** — Enterprise-style AWS + delivery. **Next:** [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit).
-
-**[DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit)** — Guides, scenarios, commands, scripts, observability patterns across layers. **Next:** [KubeLab](https://github.com/Osomudeya/kubelab) to rehearse in a safe cluster.
-
-**[PayFlow Wallet](https://github.com/payflow-demo/payflow-wallet)** — Payment microservices platform (gateway/auth/wallet/transactions/notifications) with idempotency + async processing; run via Docker Compose or MicroK8s; EKS/AKS with Terraform when you are ready. **Next:** [KubeLab](https://github.com/Osomudeya/kubelab) or [DevOps Troubleshooting Toolkit](https://github.com/Osomudeya/DevOps-Troubleshooting-Toolkit) to rehearse failures and incidents on something you already built end-to-end.
-
----
-
-<a id="gumroad-products-deep-dive"></a>
-
-## Paid products (structured deep dive)
-
-Optional resources that go deeper than a typical blog post. This table is designed to help you pick the right one quickly.
+The repos above are self-guided. Paid products add structure and depth. Most people start with the [free resume template](https://osomudeya.gumroad.com/l/free-resume-template), then [DevOps Operating System](https://osomudeya.gumroad.com/l/devops-atlas), then [Build Your Own DevOps Lab](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab), then [Kubernetes Detective](https://osomudeya.gumroad.com/l/jabzk).
 
 | Product | What you get |
 | --- | --- |
-| **[DevOps Operating System — From Zero to Job-Ready](https://osomudeya.gumroad.com/l/devops-atlas)** *(flagship)* | This is a structured, end-to-end system that takes you from isolated DevOps skills to building, debugging, and confidently explaining a real production-grade architecture—the exact capability hiring teams evaluate. |
-| **[Complete DevOps Path Bundle v1](https://osomudeya.gumroad.com/l/devops-bundle)** | All products bundled: DevOps Operating System (zero to job-ready), AI for DevOps, Build Your Own DevOps Lab, Kubernetes Detective, Interview Decoder, and resume template |
-| **[The DevOps Interview Decoder](https://osomudeya.gumroad.com/l/pcpbks)** | Decoded questions (what they asked vs what they test), failure-story patterns, and a short prep plan |
-| **[The Kubernetes Detective: Fix It Fast - Complete Troubleshooting Demo](https://osomudeya.gumroad.com/l/jabzk)** | Troubleshooting method (STOP framework), long-form guide, break/fix assets, sample app, and production-style case studies |
-| **[Build Your Own DevOps Lab — Zero-Cost Infrastructure Guide](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab)** | Six-chapter build: virtualization, Docker/K8s, Terraform/Ansible, monitoring, CI/CD, and a simulated multi-VM “prod” environment |
-| **[AI FOR DEVOPS](https://osomudeya.gumroad.com/l/ai-for-devops)** | Coordinated prompts and workflows across major AI tools, plus a concrete multi-week action plan |
-| **[FREE RESUME TEMPLATE](https://osomudeya.gumroad.com/l/free-resume-template)** | Full layout, 20+ example bullets you can steal, ATS notes, and keyword guidance |
+| **[DevOps Operating System — From Zero to Job-Ready](https://osomudeya.gumroad.com/l/devops-atlas)** | 12 phases that stack into one production-style project you can walk through end to end — so you stop learning tools in isolation and start explaining how Linux, Docker, Kubernetes, CI/CD, and the rest actually connect |
+| **[Complete DevOps Path Bundle v1](https://osomudeya.gumroad.com/l/devops-bundle)** | Operating System, Build Your Own DevOps Lab, Kubernetes Detective, Interview Decoder, resume template, and AI for DevOps |
+| **[The DevOps Interview Decoder](https://osomudeya.gumroad.com/l/pcpbks)** | Stop getting ghosted after interviews — 47 questions decoded for what they really test, so you answer with process and clarity instead of tool lists |
+| **[The Kubernetes Detective: Fix It Fast](https://osomudeya.gumroad.com/l/jabzk)** | STOP framework, break/fix assets, sample app, case studies |
+| **[Build Your Own DevOps Lab — Zero-Cost Infrastructure Guide](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab)** | Six chapters: virtualization through a simulated multi-VM environment |
+| **[AI FOR DEVOPS](https://osomudeya.gumroad.com/l/ai-for-devops)** | Workflows for common DevOps tasks with assistants, multi-week plan |
+| **[FREE RESUME TEMPLATE](https://osomudeya.gumroad.com/l/free-resume-template)** | Layout, example bullets, ATS notes, keyword guidance |
 
-**Newsletter**
-
-I write weekly about real DevOps incidents, debugging, tricks, and useful resources (free & paid), so you don’t get stuck when things break.
-[→ Join the newsletter](https://osomudeya.gumroad.com/subscribe)
+**Newsletter:** I write weekly about real DevOps incidents, debugging, tricks, and useful resources (free & paid), so you don’t get stuck when things break. [→ Join the newsletter](https://osomudeya.gumroad.com/subscribe)
 
 ---
 
