@@ -1,6 +1,6 @@
 # Learn DevOps Through Real Systems
 
-I help engineers learn DevOps through **real systems and failures**. **Everything here is free.** Production-style labs you can run on your laptop today.
+Free production-style DevOps labs built around **real systems and failures** — run them on your laptop today. **Everything here is free.**
 
 **If you are new here:** start with [**DevSecOps Project 2026**](https://osomudeya.gumroad.com/l/devsecops-lab) ([GitHub](https://github.com/Osomudeya/clearledger)). It is the most guided path — staged labs on one app, with clear checkpoints. Prefer the [ebook](https://osomudeya.gumroad.com/l/devsecops-lab) for offline reading; use the [repo](https://github.com/Osomudeya/clearledger) to run the lab.
 
@@ -44,14 +44,12 @@ The repos above are self-guided. Paid products add structure and depth. Most peo
 | Product | What you get |
 | --- | --- |
 | **[DevOps Operating System — From Zero to Job-Ready](https://osomudeya.gumroad.com/l/devops-atlas)** | 12 phases that stack into one production-style project you can walk through end to end — so you stop learning tools in isolation and start explaining how Linux, Docker, Kubernetes, CI/CD, and the rest actually connect |
-| **[Complete DevOps Path Bundle v1](https://osomudeya.gumroad.com/l/devops-bundle)** | Operating System, Build Your Own DevOps Lab, Kubernetes Detective, Interview Decoder, resume template, and AI for DevOps |
 | **[The DevOps Interview Decoder](https://osomudeya.gumroad.com/l/pcpbks)** | Stop getting ghosted after interviews — 47 questions decoded for what they really test, so you answer with process and clarity instead of tool lists |
 | **[The Kubernetes Detective: Fix It Fast](https://osomudeya.gumroad.com/l/jabzk)** | STOP framework, break/fix assets, sample app, case studies |
 | **[Build Your Own DevOps Lab — Zero-Cost Infrastructure Guide](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab)** | Six chapters: virtualization through a simulated multi-VM environment |
-| **[AI FOR DEVOPS](https://osomudeya.gumroad.com/l/ai-for-devops)** | Workflows for common DevOps tasks with assistants, multi-week plan |
 | **[FREE RESUME TEMPLATE](https://osomudeya.gumroad.com/l/free-resume-template)** | Layout, example bullets, ATS notes, keyword guidance |
 
-**Newsletter:** I write weekly about real DevOps incidents, debugging, tricks, and useful resources (free & paid), so you don’t get stuck when things break. [→ Join the newsletter](https://osomudeya.gumroad.com/subscribe)
+**Newsletter:** If you want to become confident in production, this goes deeper. Every week: production failures, architecture decisions, and lessons that don’t fit into a LinkedIn post or Medium article. [→ Join the newsletter](https://osomudeya.kit.com/23db7ca59f)
 
 ---
 
