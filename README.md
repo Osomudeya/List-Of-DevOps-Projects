@@ -37,9 +37,9 @@ Use this only when you already know the gap. Otherwise stay on step 1.
 
 ---
 
-## Paid products
+## Go deeper
 
-The repos above are self-guided. Paid products add structure and depth. Most people start with the [free resume template](https://osomudeya.gumroad.com/l/free-resume-template), then [DevOps Operating System](https://osomudeya.gumroad.com/l/devops-atlas), then [Build Your Own DevOps Lab](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab), then [Kubernetes Detective](https://osomudeya.gumroad.com/l/jabzk).
+The repos above are self-guided. These go further when you want structure and depth. Most people start with the [free resume template](https://osomudeya.gumroad.com/l/free-resume-template), then [DevOps Operating System](https://osomudeya.gumroad.com/l/devops-atlas), then [Build Your Own DevOps Lab](https://osomudeya.gumroad.com/l/BuildYourOwnDevOpsLab), then [Kubernetes Detective](https://osomudeya.gumroad.com/l/jabzk).
 
 | Product | What you get |
 | --- | --- |
